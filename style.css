@@ -1,7 +1,16 @@
-html, body {
-  margin: 0;
-  padding: 0;
+html,
+body {
+  height: 100%;
+  background-color: black;
 }
-canvas {
-  display: block;
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers the canvas horizontally. */
+  justify-content: center;
+
+  /* This centers the canvas vertically. */
+  align-items: center;
 }
