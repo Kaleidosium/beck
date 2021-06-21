@@ -69,7 +69,7 @@ function draw() {
     routes.push(new Route(int(random(4)) + 2, grid));
   }
 
-  // Draw Lines
+  // Draw lines
   for (let route of routes) {
     stroke(route.col);
     for (let i = 0; i < route.stations.length - 1; i++) {
