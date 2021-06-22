@@ -15,7 +15,7 @@ class Route {
   }
 
   checkPoint(p, check) {
-    for (let p2 in check) {
+    for (let p2 of check) {
       if (p[0] == p2[0] && p[1] == p2[1]) {
         return false;
       }
