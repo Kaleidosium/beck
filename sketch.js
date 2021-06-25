@@ -1,13 +1,14 @@
 const colorPalette = [
   "#fd3f92",
-  "#c5204c",
+  "#c90e40",
   "#9a4eae",
   "#63b8e1",
-  "#6785c5",
+  "#5d7abb",
   "#2aa95b",
   "#f3cb15",
-  "#f09b34",
+  "#ff7900",
 ];
+
 const r = 25;
 const grid = 10;
 
