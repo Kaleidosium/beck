@@ -1,4 +1,15 @@
-const colorPalette = ["#fd3f92","#c5204c","#592560","#63b8e1","#6785c5","#2aa95b","#f3cb15","#f09b34"];
+const colorPalette = [
+  "#fd3f92",
+  "#c5204c",
+  "#592560",
+  "#63b8e1",
+  "#6785c5",
+  "#2aa95b",
+  "#f3cb15",
+  "#f09b34",
+];
+const r = 25;
+const grid = 10;
 
 class Route {
   generateRoute(stops, grid) {
@@ -32,9 +43,6 @@ class Route {
     this.generateRoute(stops, grid);
   }
 }
-
-const r = 25;
-const grid = 10;
 
 function setup() {
   createCanvas(720, 720);
