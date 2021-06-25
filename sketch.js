@@ -1,3 +1,6 @@
+
+const colorPalette = ["fd3f92","c5204c","592560","63b8e1","6785c5","2aa95b","f7d22b","f09b34"]
+
 class Route {
   generateRoute(stops, grid) {
     for (let i = 0; i < stops; i++) {
@@ -25,7 +28,7 @@ class Route {
 
   constructor(stops, grid) {
     this.stations = [];
-    this.col = color(random(200) + 20, random(200) + 20, random(200) + 20);
+    this.col = color(random(colorPalette));
 
     this.generateRoute(stops, grid);
   }
