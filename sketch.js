@@ -1,5 +1,4 @@
-
-const colorPalette = ["fd3f92","c5204c","592560","63b8e1","6785c5","2aa95b","f7d22b","f09b34"]
+const colorPalette = ["#fd3f92","#c5204c","#592560","#63b8e1","#6785c5","#2aa95b","#f7d22b","#f09b34"];
 
 class Route {
   generateRoute(stops, grid) {
