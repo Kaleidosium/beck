@@ -1,7 +1,7 @@
 const colorPalette = [
   "#fd3f92",
   "#c5204c",
-  "#592560",
+  "#9a4eae",
   "#63b8e1",
   "#6785c5",
   "#2aa95b",
